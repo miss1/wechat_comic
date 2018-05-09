@@ -1,0 +1,30 @@
+.content{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.content_list{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.content_list text{
+  display: block;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.txt_english{
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+}
+
+.txt_chinese{
+  font-size: 24rpx;
+  color: #7f7f7f;
+}

@@ -1,0 +1,7 @@
+<!--components/footer/footer.wxml-->
+<view>
+  <view class='hide'></view>
+  <view class='foot'>
+    <text>Create by YangLiLing | yangll2525@163.com</text>
+  </view>
+</view>

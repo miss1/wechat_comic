@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/english/english",
+    "pages/logs/logs",
+    "pages/comicdetail/comicdetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "white",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Comic",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Comic"
+      },
+      {
+        "pagePath": "pages/english/english",
+        "text": "English"
+      }
+    ]
+  }
+}

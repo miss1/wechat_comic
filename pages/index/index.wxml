@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view>
+  <view class='head'>
+    <text class='up_page' bindtap='upPage'>上一页</text>
+    <input type='number' class='jump_page' value='{{currentPage}}' bindinput='pageInput'></input>
+    <label class='jump_action' bindtap='jumpPage'>跳页</label>
+    <text class='next_page' bindtap='nextPage'>下一页</text>
+  </view>
+  <view class='content'>
+    <navigator class='list' url='../comicdetail/comicdetail?id={{item.id}}' wx:for="{{comicItemList}}" wx:for-item="item">
+      <image class='list_img' src='../../imgs/comi_icon.png'></image>
+      <text class='list_txt'>{{item.title}}</text>
+    </navigator>
+  </view>
+  <footer/>
+</view>

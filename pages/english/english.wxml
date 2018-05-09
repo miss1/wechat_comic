@@ -1,0 +1,9 @@
+<view>
+  <view class='content'>
+    <view class='content_list' wx:for="{{englishList}}" wx:for-item="item">
+      <text class='txt_english'>{{item.english}}</text>
+      <text class='txt_chinese'>{{item.chinese}}</text>
+    </view>
+  </view>
+  <footer/>
+</view>
